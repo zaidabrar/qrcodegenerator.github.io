@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+}
+ button:hover{
+     cursor: pointer;
+ }
+ body{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+ }
+
+ .heading{
+     margin-top: 40px;
+     margin-bottom: 10px;
+     font-family: 'Shadows Into Light', cursive;
+     
+     display: flex;
+     justify-content: center;
+
+ }
+.title{
+    font-size: 20px;
+    font-family: 'Shadows Into Light', cursive;
+
+    display: flex;
+    border-radius: 2px;
+    align-items: center;
+    color:rgb(2, 46, 46);
+    width: 100%;
+    background-color:rgba(250, 232, 215, 0.486);
+    height: 40px;
+    font-weight: 700;
+    justify-content: center;
+    
+
+}
+.subtitle{
+    font-size: 25px;
+}
+footer{
+    
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:rgba(250, 232, 215, 0.486);
+   font-weight: 700;
+   font-family: 'Shadows Into Light', cursive;
+}
+
+.userinput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.userinput label{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+.userinput input{
+    width:70%;
+    max-width: 35rem;
+    font-family:'Montserrat', sans-serif ;
+    outline: none;
+    border: none;
+    border-radius:8px;
+    background-color: #e4e8eb;
+    text-align: center;
+    padding: 5rem 2rem;
+    margin-bottom: 20px;
+}
+
+.buttonn{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 0.7rem 1rem;
+    margin-bottom: 2rem;
+    color: rgb(11, 5, 44);
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: rgba(41, 101, 141, 0.555);
+    font-family: 'Shadows Into Light', cursive;
+
+
+}
+ .qr-code {  
+        
+     
+       margin-bottom: 50px;
+ }  
+  .qr-code button { 
+       display: flex;  
+       justify-content: center;  
+       background-color: rgba(41, 101, 141, 0.555);  
+       font-family: "Poppins", sans-serif;  
+       color: #eae6e5;  
+       border: none;  
+       outline: none;  
+       width: 100%;  
+       height: 100%;  
+       margin-top: 10px;  
+       font-family: 'Shadows Into Light', cursive;
+       font-size: large;
+       border-radius: 4px;
+       font-weight: bolder;
+       padding-bottom: 10px;
+       padding-top: 10px;       justify-content: center;
+       align-items: center;
+       text-align: center;
+       font-size: 30px;
+
+ }  
+  .qr-code button a {  
+       width: 100%;  
+       height: 100%;  
+       text-decoration: none;  
+       color:black;  
+ }  
