@@ -1,1 +1,1 @@
-# qrcodegenerator.github.io
+.
